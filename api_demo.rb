@@ -5,7 +5,6 @@ require "open-uri"
 url = "https://api.github.com/users/matheusararipe"
 
 # First do the request to the URL
-
 user_serialized = URI.open(url).read
 
 # Parse the response from the API
